@@ -54,15 +54,6 @@ button {
 
 /* --------------------------CROSS-SECTION------------------------ */
 
-.container {
-    max-width: 320px;
-    padding: 0 16px;
-    margin: 0 auto;
-}
-
-.section {
-    padding: 96px 0;
-}
 
 .subtitle-second {
     font-size: 36px;
@@ -101,6 +92,16 @@ button {
 
 .social-item-icon {
     fill: #F4F4FD
+}
+
+.container {
+    max-width: 320px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 96px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -933,7 +934,7 @@ button {
     }
 
     .page-footer .container {
-        padding: 0 0;
+        padding: 0 15px;
         flex-wrap: nowrap;
         column-gap: 0;
         row-gap: 0;
